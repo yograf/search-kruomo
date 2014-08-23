@@ -1,0 +1,51 @@
+{
+  "name": "search-krumo",
+  "title": "Search Krumo",
+  "id": "jid1-ey66IpAgamNmVg",
+  "description": "Search Krumo Drupal module in Firefox add-on.",
+  "author": "Yogev Priel",
+  "license": "MPL 2.0",
+  "version": "0.6",
+  "preferences": [{
+    "name": "user",
+    "title": "User",
+    "type": "string",
+    "value": "$user"
+  },
+  {
+    "name": "node",
+    "title": "Node",
+    "type": "string",
+    "value": "$node"
+  },
+  {
+    "name": "taxonomyTerm",
+    "title": "Taxonomy Term",
+    "type": "string",
+    "value": "$term"
+  },
+  {
+    "name": "form",
+    "title": "Form",
+    "type": "string",
+    "value": "$form"
+  },
+  {
+    "name": "formState",
+    "title": "Form State",
+    "type": "string",
+    "value": "$form_state"
+  },
+  {
+    "name": "product",
+    "title": "Commerce product",
+    "type": "string",
+    "value": "$product"
+  },
+  {
+    "name": "lineItem",
+    "title": "Commerce line item",
+    "type": "string",
+    "value": "$line_item"
+  }]
+}
