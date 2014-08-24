@@ -1,5 +1,5 @@
 // Main content script.
-console.log("dfdf");
+console.error("rolll");
 // Get path and move it from page->content->main script.
 window.addEventListener('message', function(event) {
 self.port.emit("my-addon-message",  event.data);
@@ -7,6 +7,7 @@ self.port.emit("my-addon-message",  event.data);
 
 // Get options from add-on settings.
 var options = self.options;
+console.log(options);
 // Lookup legend to find entity by one of its properties.
 var entitiesFinder = {
   "user" : "roles",

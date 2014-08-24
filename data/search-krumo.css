@@ -1,10 +1,11 @@
+.body {display:none}
 .krumo-element.krumo-query-result {
   background: #625c43;
   color: #b2b2b2;
 }
   
   .krumo-element.krumo-query-result:hover {
-    background: #576F6D;
+    background: red;
   }
   
   .krumo-element.krumo-query-result a.krumo-name {
@@ -21,7 +22,7 @@
 
 	.krumo-get-path a {
 		display: none;
-    background: #428484;
+    background: red;
     border-radius: 4px 4px 4px 4px;
     color: #FFFFFF;
     padding: 3px;
