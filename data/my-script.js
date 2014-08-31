@@ -25,7 +25,7 @@ if ($(".krumo-root").length) {
     var firstElement = "$vars";
     var parent = $(this).parents('.krumo-root');
     for (var key in options) {
-      if ($('.krumo-root  a:contains("' + entitiesFinder[key] + '")').length) {
+      if ($('.krumo-root > ul.krumo-node > li.krumo-child > .krumo-nest > ul.krumo-node > li.krumo-child > a:contains("' + entitiesFinder[key] + '")').length) {
 
         firstElement = options[key];
       }
