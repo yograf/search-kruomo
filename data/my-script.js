@@ -25,25 +25,10 @@ if ($(".krumo-root").length) {
     var firstElement = "$vars";
     var parent = $(this).parents('.krumo-root');
     for (var key in options) {
-      if ($('.krumo-root > ul.krumo-node > li.krumo-child > .krumo-nest > ul.krumo-node > li.krumo-child > a:contains("' + entitiesFinder[key] + '")').length) {
-
+      if ($('.krumo-root > ul.krumo-node > li.krumo-child > .krumo-nest > ul.krumo-node > li.krumo-child > .krumo-element > a:contains("' + entitiesFinder[key] + '")').length) {
         firstElement = options[key];
+        break;
       }
-    }
-    if ($('.krumo-root  a:contains("roles")').length) {
-      firstElement = "$user";
-    }
-    if ($('.krumo-root  a:contains("tid")').length) {
-      firstElement = "$term";
-    }
-    if ($('.krumo-root  a:contains("nid")').length) {
-      firstElement = "$node";
-    }
-    if ($('.krumo-root  a:contains("product_id")').length) {
-      firstElement = "$product";
-    }
-    if ($('.krumo-root  a:contains("nid")').length) {
-      firstElement = "$node";
     }
 
     //var krumoIndex = parent.index('.krumo-root');
