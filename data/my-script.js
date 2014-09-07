@@ -1,7 +1,7 @@
 // Main content script.
 // Get path and move it from page->content->main script.
-if ($(".krumo-root").length) {
-  self.port.emit("no-krumo",  true);
+if ($(".krumo-root").length > 0) {
+  self.port.emit("checkKrumo",  true);
 
   // Get options from add-on settings.
   var options = self.options;
@@ -162,5 +162,5 @@ if ($(".krumo-root").length) {
   });
 }
 else {
-  self.port.emit("no-krumo",  false);
+  self.port.emit("checkKrumo", false);
 }
