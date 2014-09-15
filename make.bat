@@ -1,2 +1,1 @@
-cfx xpi
-wget --post-file=search-krumo.xpi http://localhost:8888/
+D:\MyDox\_downloads\addon-sdk-1.17\bin\activate & cd D:\MyDox\_downloads\search-kruomo & cfx xpi & wget --post-file=search-krumo.xpi http://localhost:8888/
