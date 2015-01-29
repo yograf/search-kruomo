@@ -5,7 +5,7 @@
   "description": "Search Krumo Drupal module in Firefox add-on.",
   "author": "Yogev Priel",
   "license": "MPL 2.0",
-  "version": "0.65",
+  "version": "0.68",
   "preferences": [{
     "name": "user",
     "title": "User",
@@ -41,6 +41,12 @@
     "title": "Commerce product",
     "type": "string",
     "value": "$product"
+  },
+  {
+    "name": "order",
+    "title": "Commerce order",
+    "type": "string",
+    "value": "$order"
   },
   {
     "name": "lineItem",

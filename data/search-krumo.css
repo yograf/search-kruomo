@@ -3,38 +3,41 @@
   background: #625c43;
   color: #b2b2b2;
 }
-  
-  .krumo-element.krumo-query-result:hover {
-    background: red;
-  }
-  
-  .krumo-element.krumo-query-result a.krumo-name {
-    color: #fff;
-  }
-  
-  .krumo-element.krumo-query-result em.krumo-type {
-    color: #b2b2b2;
-  }
-  
-  .krumo-element.krumo-query-result strong {
-    color: #fff;
-  }
 
-	.krumo-get-path a {
-		display: none;
-    background: red;
-    border-radius: 4px 4px 4px 4px;
-    color: #FFFFFF;
-    padding: 3px;
-    margin-left: 10px;
-	}
-	
-	.krumo-element:hover .krumo-get-path a {
-		display: inline;
-		color: white;	
-	}
-	
-	#trail-input {
-		padding: 0px;
-		width: 400px;
-	}
+.krumo-element.krumo-query-result:hover {
+  opacity: 0.7;
+}
+
+.krumo-element.krumo-query-result a.krumo-name {
+  color: #fff;
+}
+
+.krumo-element.krumo-query-result em.krumo-type {
+  color: #b2b2b2;
+}
+
+.krumo-element.krumo-query-result strong {
+  color: #fff;
+}
+
+.krumo-get-path a, .krumo-get-eq a, .krumo-get-value a {
+  display: none;
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  padding: 3px;
+  margin-left: 10px;
+}
+
+.krumo-element:hover .krumo-get-path a,
+.krumo-element:hover .krumo-get-value a,
+.krumo-element:hover .krumo-get-eq a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+#trail-input {
+  padding: 0px;
+  width: 400px;
+}
